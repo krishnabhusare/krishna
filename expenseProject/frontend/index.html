@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expense</title>
+</head>
+<h1>EXPENSE TRACKER</h1>
+<hr><hr>
+<body>
+    <form id="form">
+        <label for="amount">Amount:</label>
+        <br>
+        <input type="number" name="amount" id="amount">
+        <br>
+        <label for="description">Description:</label>
+        <br>
+        <input type="text" name="description" id="description">
+        <br><br>
+        Category:
+        <select id="category" name="category">
+            <option value="fuel">Fuel</option>
+            <option value="electricity">Electricity</option>
+            <option value="food">Food</option>
+            <option value="other">Other</option>
+        </select>
+        <br><br>
+        <button type="submit">Add Expense</button>
+        
+    </form>
+    <br>
+    <hr>
+    <h2>Expense Details</h2>
+    <ul id="ul"></ul>
+</body>
+<script src="index.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.7.7/axios.min.js"></script>
+</html>
