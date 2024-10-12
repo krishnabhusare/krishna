@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cricket</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container" id="container">
+        <br>
+        <h1 class="h1">Post Players Details</h1>
+        <hr>
+        <form id="form" class="form">
+            <label for="name">Name:</label>
+            <br>
+            <input type="text" name="name" id="name">
+            <br>
+            <label for="country">Country:</label>
+            <br>
+            <input type="text" name="country" id="country">
+            <br>
+            <label for="birthDate">Birth Date:</label>
+            <br>
+            <input type="text" name="birthDate" id="birthDate">
+            <br>
+            <label for="birthPlace">Birth Place:</label>
+            <br>
+            <input type="text" name="birthPlace" id="birthPlace">
+            <br>
+            <label for="url"> Enter Url:</label>
+            <br>
+            <input type="text" name="url" id="url">
+            <br>
+            <label for="career">Career:</label>
+            <br>
+            <textarea name="career" id="career"></textarea>
+            <br>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+    <div class="search" id="searchDiv">
+       <input type="text" name="searchInput" id="searchInput" placeholder="serach player name...">
+       <button type="submit" id="search">Search</button>
+    </div>
+    <div class="getSection" id="getSection">
+
+    </div>
+    
+</body>
+<script src="index.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.7.7/axios.min.js"></script>
+</html>
